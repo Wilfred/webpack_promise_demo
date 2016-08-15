@@ -1,10 +1,10 @@
 var webpack = require('webpack');
 
 module.exports = {
-    entry: [
-         "./index.js",
-    ],
-    output: {
-        filename: "bundle.js"
-    }
+  entry: [
+    __dirname + "/index.js",
+  ],
+  output: {
+    filename: "bundle.js"
+  },
 };
