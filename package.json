@@ -1,0 +1,16 @@
+{
+  "name": "webpack_promise_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "es6-promise": "^3.2.1",
+    "popsicle": "^8.0.4"
+  }
+}
